@@ -2,16 +2,18 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>{% block title %}Mi Aplicación Flask{% endblock %}</title>
+    <title>{% block title %}AppBlue{% endblock %}</title>
 </head>
 <body>
     <header>
+        <h2>AppBlue</h2>
         <nav>
-            <a href="/admin/panel">Admin Panel</a> | 
-            <a href="/blog/entrada/1">Blog Entry 1</a>
+            <a href="/admin/panel">Administración</a>
+            <a href="/blog/entrada/1">Blog</a>
+          
         </nav>
     </header>
-    <hr>
+    <br>
     <main>
         {% block content %}{% endblock %}
     </main>
